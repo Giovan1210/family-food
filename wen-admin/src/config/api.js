@@ -1,4 +1,5 @@
-const rootUrl = 'http://127.0.0.1:8360/admin/';
+// const rootUrl = 'http://127.0.0.1:8360/admin/';
+const rootUrl = 'http://food.giovan.cn/admin/';
 
 const api = {
     rootUrl : rootUrl,
