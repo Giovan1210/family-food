@@ -17,13 +17,14 @@ Page({
         outStock: 0,
         payMethodItems: [{
                 name: 'offline',
-                value: '线下支付'
-            },
-            {
-                name: 'online',
-                value: '在线支付',
+                value: '线下支付',
                 checked: 'true'
             },
+            // {
+            //     name: 'online',
+            //     value: '在线支付',
+            //     checked: 'true'
+            // },
         ],
         payMethod:1,
     },
@@ -148,10 +149,10 @@ Page({
     },
     // TODO 有个bug，用户没选择地址，支付无法继续进行，在切换过token的情况下
     submitOrder: function (e) {
-        if (this.data.addressId <= 0) {
-            util.showErrorToast('请选择收货地址');
-            return false;
-        }
+        // if (this.data.addressId <= 0) {
+        //     util.showErrorToast('请选择收货地址');
+        //     return false;
+        // }
         let addressId = this.data.addressId;
         let postscript = this.data.postscript;
         let freightPrice = this.data.freightPrice;
@@ -187,10 +188,10 @@ Page({
         });
     },
     offlineOrder: function (e) {
-        if (this.data.addressId <= 0) {
-            util.showErrorToast('请选择收货地址');
-            return false;
-        }
+        // if (this.data.addressId <= 0) {
+        //     util.showErrorToast('请选择收货地址');
+        //     return false;
+        // }
         let addressId = this.data.addressId;
         let postscript = this.data.postscript;
         let freightPrice = this.data.freightPrice;

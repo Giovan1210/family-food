@@ -1,8 +1,8 @@
 <view class="container">
 	<view class='wrap'>
 		<view class="address-box">
-			<view class="receive-title">收件人</view>
-			<view class='add-address' bindtap="toSelectAddress" wx:if="{{checkedAddress.id > 0}}">
+			<!-- <view class="receive-title">收件人</view> -->
+			<!-- <view class='add-address' bindtap="toSelectAddress" wx:if="{{checkedAddress.id > 0}}">
 				<image class="addr-icon" src="/images/icon/location.png"></image>
 				<view class="addr-r">
 					<view class="show-address">
@@ -14,14 +14,14 @@
 					</view>
 					<view class="arrow"></view>
 				</view>
-			</view>
-			<view wx:else class="add-address" hidden="" bindtap='toSelectAddress'>
+			</view> -->
+			<!-- <view wx:else class="add-address" hidden="" bindtap='toSelectAddress'>
 				<image class="addr-icon" src="/images/icon/location.png"></image>
 				<view class="addr-r">
 					<view class="addr-title">请选择收货地址</view>
 					<view class="arrow"></view>
 				</view>
-			</view>
+			</view> -->
 		</view>
 		<view class="goods-list" bindtap='toGoodsList'>
 			<view class="list-title">商品信息</view>
@@ -42,10 +42,10 @@
 				<view class="row-label">商品总价</view>
 				<view class="right-text">￥{{goodsTotalPrice}}</view>
 			</view>
-			<view class="row-box">
+			<!-- <view class="row-box">
 				<view class="row-label">快递</view>
 				<view class="right-text">¥{{freightPrice}}</view>
-			</view>
+			</view> -->
 			<view class="memo-box">
 				<view class="row-label">备注：</view>
 				<view class="right-text memo-input">

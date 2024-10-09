@@ -1,8 +1,8 @@
 <view class="container">
   <view class='about-wrap'>
-    <view class='title'>海风小店</view>
+    <view class='title'>夏吃人小店</view>
     <view class='content'>
-      开源微信小程序商城
+      家庭独家小程序
     </view>
     <view class="img-wrap">
       <image mode="aspectFill" class="code-img" src="https://www.qile.club/qrcode.jpg" show-menu-by-longpress="{{true}}"></image>
