@@ -236,9 +236,7 @@ function sentRes(url, data, method, fn) {
 }
 
 function loginNow() {
-  // let userInfo = wx.getStorageSync('userInfo');
-  let userInfo = ''
-  // console.log(wx.getStorageSync('userInfo'), '登录');
+  let userInfo = wx.getStorageSync('userInfo');
   if (userInfo == '') {
     wx.login({
       success: (res) => {

@@ -5,10 +5,10 @@
       家庭独家小程序
     </view>
     <view class="img-wrap">
-      <image mode="aspectFill" class="code-img" src="https://www.qile.club/qrcode.jpg" show-menu-by-longpress="{{true}}"></image>
+      <image mode="aspectFill" class="code-img" src="http://fileserve.giovan.top/api/v1/files/preview?p=b3ad2c4dc4b47bc7433dec981b15758.jpg&&mimetype=image/jpeg" show-menu-by-longpress="{{true}}"></image>
     </view>
     <view class='content'>
-      更多信息访问：qile.club
+      更多信息访问：giovan.cn
     </view>
   </view>
   <ad unit-id="adunit-1776b4f8f2217197" ad-type="video" ad-theme="white"></ad>
